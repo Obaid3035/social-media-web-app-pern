@@ -1,4 +1,4 @@
-#Carerely
+# Carerely
 
 This project is a social media application that target fitness audience. It was interesting and fun experience in working on this project. we used React with Typescript/Javascript for the client side and for the server side we used Node.js with Typescript/Javascript.
 It contains all the essential features of today's social media application. but Its main functionality was to give user nutrition statistic by their diet plan.
