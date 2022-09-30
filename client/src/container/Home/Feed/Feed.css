@@ -1,0 +1,57 @@
+.create_post {
+  justify-content: space-around;
+  display: flex;
+  align-items: center; }
+  .create_post img {
+    border-radius: 50%; }
+  .create_post .create_post_form {
+    width: 100%;
+    padding-left: 30px; }
+    .create_post .create_post_form input {
+      float: left;
+      width: 90%;
+      padding: 0 90px 0 30px; }
+    .create_post .create_post_form button {
+      width: 20%;
+      position: absolute;
+      right: 0;
+      height: 50px; }
+
+.activity_feed h4 {
+  color: #3F8AB8;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold; }
+.activity_feed .activity_feed_post .post_img img {
+  border-radius: 17px; }
+.activity_feed .activity_feed_post .activity_feed_user {
+  display: flex;
+  align-items: center;
+  justify-content: start; }
+  .activity_feed .activity_feed_post .activity_feed_user img {
+    cursor: pointer;
+    border-radius: 50%; }
+  .activity_feed .activity_feed_post .activity_feed_user .activity_feed_user_info {
+    cursor: pointer; }
+  .activity_feed .activity_feed_post .activity_feed_user div {
+    margin-left: 10px; }
+    .activity_feed .activity_feed_post .activity_feed_user div h5 {
+      font-size: 15px;
+      font-weight: 500;
+      margin: 0;
+      padding: 0; }
+    .activity_feed .activity_feed_post .activity_feed_user div p {
+      text-align: start;
+      font-size: 12px; }
+      .activity_feed .activity_feed_post .activity_feed_user div p svg {
+        margin-right: 5px; }
+.activity_feed .activity_feed_post .post_stats svg :hover {
+  color: #59E4F6;
+  cursor: pointer; }
+.activity_feed .activity_feed_post .activity_feed_description p {
+  margin-top: 25px;
+  font-size: 14px; }
+.activity_feed .activity_feed_post .activity_feed_description .img_lazy {
+  height: 50vh; }
+
+/*# sourceMappingURL=Feed.css.map */

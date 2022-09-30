@@ -1,0 +1,20 @@
+@import "../../../../color";
+.conversation_search{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 22px;
+  border-bottom: 1px solid rgb(233, 222, 222);
+  svg{
+    color: rgb(165, 161, 161);
+    font-size: 20px;
+  }
+  .search-inp {
+    border: none;
+    flex: 1;
+    font-size: smaller;
+    padding-left: 5px;
+    text-shadow: .5px .5px rgb(138, 136, 136);
+    outline: none!important;
+  }
+}

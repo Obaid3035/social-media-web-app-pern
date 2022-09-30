@@ -1,0 +1,55 @@
+.setting .setting_tabs {
+  height: 100vh; }
+  .setting .setting_tabs .profile_change {
+    margin-top: 20px; }
+    .setting .setting_tabs .profile_change img {
+      border-radius: 50%; }
+    .setting .setting_tabs .profile_change h4 {
+      margin-top: 14px;
+      font-size: 16px;
+      font-weight: bold; }
+    .setting .setting_tabs .profile_change p {
+      font-size: 15px;
+      color: #3F8AB8;
+      cursor: pointer; }
+  .setting .setting_tabs .tabs {
+    margin-top: 50px; }
+    .setting .setting_tabs .tabs p {
+      margin: 30px 0 0 0;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer; }
+    .setting .setting_tabs .tabs p:hover {
+      color: #3F8AB8; }
+    .setting .setting_tabs .tabs .active_tab {
+      color: #3F8AB8; }
+.setting .personal_information {
+  padding: 40px 50px !important;
+  height: 100%; }
+  .setting .personal_information h4 {
+    font-size: 16px;
+    font-weight: bold; }
+  .setting .personal_information .setting_form .setting_btn button {
+    width: 150px; }
+  .setting .personal_information .setting_form label {
+    font-size: 15px; }
+  .setting .personal_information .setting_form input {
+    border-radius: 12px;
+    height: 50px;
+    background-color: rgba(243, 243, 243, 0.57); }
+  .setting .personal_information .setting_form input:focus {
+    outline: none !important;
+    border: none; }
+  .setting .personal_information .setting_form .setting_date {
+    margin-top: 50px; }
+    .setting .personal_information .setting_form .setting_date input {
+      background-color: white;
+      height: 20px;
+      border-radius: 12px; }
+  .setting .personal_information .setting_form .css-1s2u09g-control {
+    height: 50px; }
+  .setting .personal_information .setting_form .css-6j8wv5-Input {
+    margin: 0;
+    padding: 0; }
+
+/*# sourceMappingURL=Setting.css.map */

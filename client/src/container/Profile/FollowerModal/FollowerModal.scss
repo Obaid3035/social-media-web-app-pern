@@ -1,0 +1,27 @@
+@import "../../../color";
+
+.following_modal{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  .following_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+      width: 55px !important;
+      height: 55px !important;
+      border-radius: 100px;
+      object-fit: cover;
+    }
+
+    p{
+      margin: 0;
+      cursor: pointer;
+      padding-left: 15px;
+      font-weight: bold;
+    }
+  }
+}

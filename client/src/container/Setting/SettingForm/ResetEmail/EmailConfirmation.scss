@@ -1,0 +1,10 @@
+@import "../../../../color";
+
+.email_card {
+  background-color: white;
+  padding: 40px 50px;
+  border-radius: 15px;
+  h4 {
+    color: $primary;
+  }
+}

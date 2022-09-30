@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,WAAY;EACV,gBAAgB,EAAE,KAAK;EACvB,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,MAAM;EACd,cAAG;IACD,KAAK,ECPC,OAAO;IDQb,WAAW,EAAE,IAAI;EAEnB,aAAE;IACA,MAAM,EAAE,CAAC;IACT,SAAS,EAAE,IAAI;EAEjB,kBAAO;IACL,KAAK,EAAE,GAAG;IACV,aAAa,EAAE,IAAI",
+"sources": ["NotFriend.scss","../../../_color.scss"],
+"names": [],
+"file": "NotFriend.css"
+}

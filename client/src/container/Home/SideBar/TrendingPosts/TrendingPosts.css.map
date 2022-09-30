@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,sCAAuC;EACrC,KAAK,EAAE,kBAAiB",
+"sources": ["TrendingPosts.scss"],
+"names": [],
+"file": "TrendingPosts.css"
+}

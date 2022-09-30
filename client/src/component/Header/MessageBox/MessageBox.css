@@ -1,0 +1,56 @@
+.message_box {
+  position: absolute;
+  width: 380px;
+  background: white;
+  right: -150px;
+  top: 90px;
+  padding: 15px;
+  box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1); }
+  .message_box h4 {
+    font-size: 17px;
+    color: #3F8AB8; }
+  .message_box .message_box_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #F1F1F3;
+    padding-top: 17px;
+    margin-top: 17px; }
+    .message_box .message_box_item img {
+      border-radius: 50%; }
+    .message_box .message_box_item p {
+      font-size: 12px; }
+    .message_box .message_box_item .message_box_message h5 {
+      font-size: 16px;
+      padding: 0;
+      margin: 0; }
+    .message_box .message_box_item .message_box_message p {
+      font-size: 12px;
+      padding: 0;
+      margin: 0; }
+  .message_box .message_box_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .message_box .message_box_top .badge {
+      color: white;
+      background-color: #3F8AB8 !important; }
+
+.message_box:before {
+  content: "";
+  position: absolute;
+  margin-top: -15px;
+  left: 182px;
+  top: -8px;
+  border: solid 15px transparent;
+  border-bottom-color: #FFF; }
+
+.message_show {
+  display: block; }
+
+.message_hide {
+  display: none; }
+
+/*# sourceMappingURL=MessageBox.css.map */

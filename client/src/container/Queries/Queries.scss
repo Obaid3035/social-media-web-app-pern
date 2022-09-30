@@ -1,0 +1,159 @@
+@import "../../color";
+
+.queries_main {
+  margin-top: 30px;
+  justify-content: center;
+
+  .queries_left{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+
+    li{
+      list-style: none;
+      padding-bottom: 10px;
+
+      svg{
+        color: $primary;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .ask_question{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      background-color: white;
+      border: none
+    }
+
+
+    .question_input{
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      :focus{
+        outline: none !important;
+      }
+    }
+
+    svg{
+      font-size: 55px;
+      color: $primary;
+      cursor: pointer;
+      border-radius: 25px;
+    }
+
+    ::placeholder{
+      font-size: 12px;
+    }
+  }
+
+  .question{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 99px rgba(47, 98, 129, 0.09);
+
+
+    .question_details{
+      display: flex;
+      justify-content: space-between;
+
+      .delete {
+        cursor: pointer;
+      }
+
+
+      .answer_counter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $primary;
+        font-weight: 600;
+      }
+
+      h5{
+        font-size: 15px;
+        font-weight: 600;
+      }
+      p {
+        font-size: 13px;
+        line-height: 2.2;
+      }
+
+      .continue_btn{
+        border: none;
+        margin-left: 20px;
+        border-radius: 20px;
+        background: rgba(79, 174, 233, 0.28);
+        color: $primary;
+        font-size: 13px;
+        padding: 5px 20px;
+
+        &:hover{
+          color: #fff;
+        }
+      }
+
+
+
+    }
+
+    .user_details{
+      display: flex;
+      align-items: center;
+
+      img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover
+      }
+
+      p{
+        margin: 0 0 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+
+        span{
+          color: $primary;
+          margin-left: 10px;
+        }
+      }
+
+      .see_btn{
+        width: 50%;
+        border: none;
+        border-radius: 5px;
+        margin-right: 5px;
+        background: $button;
+        color: #fff;
+        font-size: 13px;
+        padding: 5px 20px;
+      }
+      svg {
+        color: $primary;
+
+      }
+    }
+  }
+  .question_divider{
+    border-top: 2px solid rgba(112, 112, 112, 0.27);
+  }
+}
+
+
+

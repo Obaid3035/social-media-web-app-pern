@@ -1,0 +1,86 @@
+@import "../../../color";
+
+.search {
+  position: relative;
+  .search_form {
+    position: relative;
+    input {
+      float: left;
+      width: 400px;
+      padding: 0 30px;
+      box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+      -webkit-box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+      -moz-box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+      border-bottom-left-radius: 30px;
+      border-top-left-radius: 30px;
+      border-color: #EBF0F1;
+      background: #F6FAFB;
+      height: 50px;
+    }
+    input:focus {
+      border-color: #EBF0F1;
+      box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+      -webkit-box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+      -moz-box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+    }
+    input::placeholder {
+      font-size: 12px;
+    }
+
+    button {
+      width: 12%;
+      position: absolute;
+      right: -30px;
+      height: 50px;
+      border-bottom-right-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      svg {
+        font-size: 27px;
+      }
+    }
+  }
+
+  .hide_search_results {
+    display: none;
+  }
+
+  .search_results {
+    position: absolute;
+    width: 380px;
+    background: white;
+    right: -3px;
+    top: 75px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+    -moz-box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+
+
+
+    .search_users {
+      display: flex;
+      cursor: pointer;
+      align-items: center;
+      padding: 20px;
+      margin-bottom: 12px;
+      border-bottom: 0.5px solid rgba(0, 0, 0, 0.25);
+      img {
+        border-radius: 50%;
+      }
+      p {
+        padding: 0;
+        margin: 0 0 0 20px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+
+    .search_users:hover {
+      background-color: #EEF1F1;
+      border-radius: 12px;
+      transition: all 1s ease;
+    }
+  }
+}

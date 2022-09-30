@@ -1,0 +1,29 @@
+@import "../../../../../color";
+
+
+.top_blog {
+  margin-top: 80px;
+
+  h5 {
+    font-size: $main_heading;
+    font-weight: bold;
+  }
+
+  h4 {
+    color: $primary;
+    text-transform: uppercase;
+    font-size: $sub_heading;
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+  p {
+    font-size: $content;
+  }
+
+  button {
+    font-weight: bold;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+  }
+}

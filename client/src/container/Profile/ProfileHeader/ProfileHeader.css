@@ -1,0 +1,45 @@
+.profile_header {
+  background-color: white;
+  border-radius: 40px; }
+  .profile_header .unfollow_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .profile_header .unfollow_btn button {
+      width: 15%;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .profile_header .unfollow_btn button svg {
+        font-size: 15px; }
+      .profile_header .unfollow_btn button span {
+        margin: 0 10px; }
+  .profile_header .profile_img {
+    cursor: pointer; }
+  .profile_header .profile_header_wrapper {
+    margin: 20px 40px; }
+  .profile_header .follower_stats div {
+    margin: 0;
+    width: 13%; }
+  .profile_header .follower_stats h5 {
+    font-weight: 600;
+    color: #3F8AB8; }
+
+.current_profile_form {
+  margin-top: 12px; }
+  .current_profile_form .create_post_form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+    .current_profile_form .create_post_form input {
+      float: left;
+      width: 400px;
+      padding: 0 80px 0 30px; }
+    .current_profile_form .create_post_form button {
+      width: 20%;
+      position: absolute;
+      right: -15px;
+      height: 50px; }
+
+/*# sourceMappingURL=ProfileHeader.css.map */

@@ -1,0 +1,68 @@
+.blog_detail_left {
+  border-radius: 4px;
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px; }
+  .blog_detail_left p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    color: #252e48;
+    padding: 8px; }
+  .blog_detail_left .blog_detail_heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px; }
+    .blog_detail_left .blog_detail_heading h5 {
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 40px;
+      text-align: left;
+      color: #2c6182; }
+    .blog_detail_left .blog_detail_heading p {
+      font-size: 12px;
+      line-height: 12px;
+      text-align: left;
+      color: #2c6182; }
+      .blog_detail_left .blog_detail_heading p svg {
+        font-size: 16px; }
+
+.blog_detail_right {
+  border-radius: 4px;
+  background: #fff;
+  margin: 20px 0;
+  padding: 10px 30px; }
+  .blog_detail_right .blog_detail_right_details {
+    display: flex;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    margin: 20px 0; }
+    .blog_detail_right .blog_detail_right_details img {
+      width: 100%; }
+    .blog_detail_right .blog_detail_right_details .blog_detail_description {
+      padding: 20px; }
+      .blog_detail_right .blog_detail_right_details .blog_detail_description h5 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+        color: #2c6182; }
+      .blog_detail_right .blog_detail_right_details .blog_detail_description p {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 19px;
+        text-align: left;
+        color: #4d4f5c; }
+      .blog_detail_right .blog_detail_right_details .blog_detail_description .blog_detail_right_time {
+        display: flex;
+        justify-content: space-between; }
+        .blog_detail_right .blog_detail_right_details .blog_detail_description .blog_detail_right_time p {
+          font-size: 12px;
+          line-height: 12px;
+          text-align: left;
+          color: #2c6182; }
+          .blog_detail_right .blog_detail_right_details .blog_detail_description .blog_detail_right_time p svg {
+            font-size: 16px; }
+
+/*# sourceMappingURL=BlogDetail.css.map */

@@ -1,0 +1,64 @@
+.search {
+  position: relative; }
+  .search .search_form {
+    position: relative; }
+    .search .search_form input {
+      float: left;
+      width: 400px;
+      padding: 0 30px;
+      box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1);
+      border-bottom-left-radius: 30px;
+      border-top-left-radius: 30px;
+      border-color: #EBF0F1;
+      background: #F6FAFB;
+      height: 50px; }
+    .search .search_form input:focus {
+      border-color: #EBF0F1;
+      box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1); }
+    .search .search_form input::placeholder {
+      font-size: 12px; }
+    .search .search_form button {
+      width: 12%;
+      position: absolute;
+      right: -30px;
+      height: 50px;
+      border-bottom-right-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px; }
+      .search .search_form button svg {
+        font-size: 27px; }
+  .search .hide_search_results {
+    display: none; }
+  .search .search_results {
+    position: absolute;
+    width: 380px;
+    background: white;
+    right: -3px;
+    top: 75px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.1); }
+    .search .search_results .search_users {
+      display: flex;
+      cursor: pointer;
+      align-items: center;
+      padding: 20px;
+      margin-bottom: 12px;
+      border-bottom: 0.5px solid rgba(0, 0, 0, 0.25); }
+      .search .search_results .search_users p {
+        padding: 0;
+        margin: 0 0 0 20px;
+        font-size: 14px;
+        font-weight: bold; }
+    .search .search_results .search_users:hover {
+      background-color: #EEF1F1;
+      border-radius: 12px;
+      transition: all 1s ease; }
+
+/*# sourceMappingURL=SearchBar.css.map */

@@ -1,0 +1,60 @@
+@import "../../color";
+
+.calorie_tracker {
+  background-color: #CFE9FA;
+  padding: 40px;
+  margin-top: 20px;
+
+  .calorie_tracker_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+      color: #2C6182;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 13px;
+    }
+
+  }
+
+  .calorie_tracker_image img{
+    width: 100%;
+  }
+
+}
+
+.my_graph_btn {
+  color: $primary;
+  text-align: center;
+  background-color: $primary;
+  border-radius: 12px;
+  font-size: 20px;
+}
+
+.calorie_tracker_button{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  Button{
+    width: 200px;
+    height: 80px;
+    margin: 0 10px 10px 0;
+    border-radius: 4px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #f0f2f8;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    &:hover {
+      background: #2196F3;
+    }
+  }
+}
+
+

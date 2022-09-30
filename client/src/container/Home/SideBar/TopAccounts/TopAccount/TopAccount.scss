@@ -1,0 +1,27 @@
+@import "../../../../../color";
+
+.top_account {
+  margin-top: 50px;
+  h4 {
+    color: $primary;
+    text-transform: uppercase;
+    font-size: $main_heading;
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+
+  .top_account_profiles {
+    display: flex;
+    flex-flow: wrap;
+    img {
+      border-radius: 50%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    p {
+      font-size: $content;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

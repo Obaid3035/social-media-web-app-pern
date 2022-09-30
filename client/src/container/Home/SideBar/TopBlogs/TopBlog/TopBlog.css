@@ -1,0 +1,20 @@
+.top_blog {
+  margin-top: 80px; }
+  .top_blog h5 {
+    font-size: 16px;
+    font-weight: bold; }
+  .top_blog h4 {
+    color: #3F8AB8;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 35px; }
+  .top_blog p {
+    font-size: 12px; }
+  .top_blog button {
+    font-weight: bold;
+    width: 40%;
+    border-radius: 5px;
+    border: none; }
+
+/*# sourceMappingURL=TopBlog.css.map */

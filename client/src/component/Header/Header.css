@@ -1,0 +1,62 @@
+.navbar {
+  box-shadow: 1px 12px 22px -19px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: 1px 12px 22px -19px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 1px 12px 22px -19px rgba(0, 0, 0, 0.32);
+  align-items: end;
+  height: 90px;
+  z-index: 1; }
+  .navbar a:hover {
+    text-decoration: none; }
+
+.notify_item {
+  position: relative; }
+  .notify_item .notification_icon {
+    position: relative; }
+    .notify_item .notification_icon .badge {
+      position: absolute;
+      right: -10px;
+      bottom: 12px;
+      padding: 5px 8px;
+      border-radius: 50%;
+      font-size: 12px;
+      background-color: #ef9b06;
+      color: white;
+      transition: all 0.3s ease; }
+    .notify_item .notification_icon .badge:hover {
+      background-color: #59E4F6;
+      color: white; }
+  .notify_item svg {
+    font-size: 2rem;
+    color: #7C7C7D; }
+
+.notify_item.nav-link:focus {
+  outline: none; }
+
+.nav_link {
+  display: flex;
+  flex-flow: column;
+  color: black;
+  cursor: pointer;
+  align-items: center; }
+  .nav_link svg {
+    font-size: 2rem;
+    color: #7C7C7D; }
+  .nav_link p {
+    font-size: 10px;
+    margin: 5px 0;
+    padding: 0; }
+
+.nav_link:hover .nav_icon svg {
+  color: #3F8AB8; }
+.nav_link:hover .nav_item {
+  color: #3F8AB8; }
+
+.nav_link:hover {
+  text-decoration: none; }
+
+.nav_active svg {
+  color: #3F8AB8; }
+.nav_active .nav_item {
+  color: #3F8AB8; }
+
+/*# sourceMappingURL=Header.css.map */

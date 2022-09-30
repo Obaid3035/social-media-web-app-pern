@@ -1,0 +1,16 @@
+@import "../../color";
+
+.delete_div {
+  padding: 20px;
+  text-align: center;
+  color: $primary;
+  h4 {
+    font-size: 18px;
+  }
+  div {
+    margin-top: 12px;
+    button {
+      margin: 0 12px;
+    }
+  }
+}

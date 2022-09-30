@@ -1,0 +1,20 @@
+@import "../../_color";
+
+.site_modal {
+  .modal-content {
+    border-radius: 35px;
+  }
+  .modal_header {
+    justify-content: end !important;
+    svg {
+      font-size: 25px;
+      color: $primary;
+      cursor: pointer;
+
+      :hover {
+        color: $hover;
+      }
+    }
+  }
+}
+

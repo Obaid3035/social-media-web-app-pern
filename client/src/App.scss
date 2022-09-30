@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import "./color";
+
+
+* {
+  font-family: 'Montserrat', sans-serif;
+
+
+
+  img {
+    max-width: 100%!important;
+  }
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #E6F4FF !important;
+}
+
+.like_post_stats {
+  color: $hover!important;
+  cursor: pointer;
+}
+
+.rounded_white_box {
+  background-color: white;
+  padding: 30px 20px!important;
+  border-radius: 30px;
+}
+
+
+
+
+
+.create_post_form {
+  position: relative;
+  input[type="text"] {
+    box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.06);
+    -webkit-box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.06);
+    -moz-box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.06);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-color: #EBF0F1;
+    background: #F6FAFB;
+    height: 50px;
+  }
+  input[type="text"]:focus {
+    border-color: #EBF0F1;
+    box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+    -moz-box-shadow: 3px 6px 12px 3px rgba(0,0,0,0.10);
+  }
+  input[type="text"]::placeholder {
+    font-size: 12px;
+  }
+  input.form-control[type="file"] {
+    display: none;
+    margin: 0 auto;
+  }
+
+  button {
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+}
+
+.rounded_image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.lazyload-wrapper  {
+  margin: 0!important;
+}
+
+
+.page_responsive {
+  position: absolute;
+  top: 16px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 3%;
+  height: 100%;
+  width: calc(100% - 74px);
+  left: 74px;
+  transition: all 0.2s ease;
+}
+
+
+.page_responsive h5 {
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sidebar_active ~ .page_responsive {
+  width: calc(100% - 240px);
+  left: 240px;
+  transition: all 0.2s ease;
+}
+
+@media (max-width: 767px) {
+  .sidebar_active ~ .page_responsive {
+    width: calc(100% - 240px);
+    left: 240px;
+    transition: all 0.2s ease;
+    filter: blur(12px);
+  }
+}

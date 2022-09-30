@@ -1,0 +1,51 @@
+@import "../../../color";
+
+.tracker__modal {
+  .unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .css-b62m3t-container {
+      margin-top: 14px;
+    }
+  }
+
+  .tracker__btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+    button {
+      width: 70%;
+      border-radius: 4px;
+      background-color: #4faee9;
+      border: none;
+      box-shadow: 0 6px 19px rgba(0, 0, 0, 0.29);
+
+    }
+  }
+
+  .modal_col {
+    margin: 15px 0;
+  }
+
+  #dropdown-date {
+    display: flex;
+    justify-content: space-between;
+
+    select {
+      padding: 4px 23px;
+    }
+
+    select::after {
+      content: "";
+      width: 0.8em;
+      height: 0.5em;
+      background-color: var(--select-arrow);
+      clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    }
+  }
+
+
+}

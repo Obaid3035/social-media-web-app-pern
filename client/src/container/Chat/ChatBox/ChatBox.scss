@@ -1,0 +1,120 @@
+@import "../../../color";
+.chat{
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  &-header{
+    height: 80px;
+    border-bottom: 1px solid rgb(233, 222, 222);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    &-dp{
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+    }
+  }
+}
+
+.header-info{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  &-title{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(98, 97, 97);
+    margin-bottom: 0;
+  }
+  &-desig{
+    margin-bottom: 0;
+    font-size: 15px;
+    color: rgb(182, 179, 179);
+    text-shadow: .5px .5px rgb(182, 179, 179);
+  }
+}
+
+.chat-msg{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 13px;
+  overflow-y: scroll;
+  flex: 1;
+}
+
+.msg-other{
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  background-color: rgb(232, 233, 233);
+  width: max-content;
+  max-width: 250px;
+  padding: 8px;
+  margin-bottom: 1em;
+}
+
+.msg-me{
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+  background-color: $button;
+  width: max-content;
+  max-width: 250px;
+  align-self: flex-end;
+  color: white;
+  padding: 8px;
+  margin-bottom: 1em;
+}
+
+.typing-box{
+  height: max-content;
+  // position: absolute;
+  bottom: 0;
+  background-color: #f5f5f5;
+  width: calc(100% - 30px);
+  padding: 25px;
+  margin: 15px;
+  border-radius: 7px;
+  box-sizing: border-box;
+
+  .typing-inp{
+    display: flex;
+    justify-content: space-between;
+    input{
+      border: none;
+      background-color: transparent;
+      color: $primary;
+      font-size: 13px;
+      width: 95%;
+      overflow-wrap: break-word;
+      white-space: nowrap;
+      outline: none!important;
+      &::placeholder{
+        color: $primary;
+      }
+      & :focus{
+        border: none;
+      }
+    }
+
+    button {
+      border: none;
+      svg{
+        color: $primary;
+        font-size: x-large;
+      }
+    }
+  }
+}
+
+.attach-container{
+  padding-top: 10px;
+  &-icon{
+    color: rgb(177, 175, 175);
+    margin-right: 5px;
+  }
+}

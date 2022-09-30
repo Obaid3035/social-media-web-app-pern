@@ -1,0 +1,112 @@
+.blog_detail_left{
+    border-radius: 4px;
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+
+    img {
+
+        max-height: 800px;
+        border-radius: 25px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    p{
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+        color: #252e48;
+        padding: 8px;
+
+    }
+
+    .blog_detail_heading{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding: 20px;
+
+        h5{
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 40px;
+            text-align: left;
+            color: #2c6182;
+
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 12px;
+            text-align: left;
+            color: #2c6182;
+
+            svg {
+                font-size: 16px;
+            }
+        }
+    }
+
+}
+
+
+
+.blog_detail_right{
+    border-radius: 4px;
+    background: #fff;
+    margin: 20px 0;
+    padding: 10px 30px;
+
+
+    .blog_detail_right_details{
+        cursor: pointer;
+        display: flex;
+        background: #fff;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        margin: 20px 0;
+
+        img{
+            width: 100%;
+        }
+
+        .blog_detail_description{
+            padding: 10px 10px;
+
+            h5{
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 25px;
+                text-align: left;
+                color: #2c6182;
+            }
+
+            p{
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 19px;
+                text-align: left;
+                color: #4d4f5c;
+
+            }
+
+            .blog_detail_right_time{
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                    font-size: 12px;
+                    line-height: 12px;
+                    text-align: left;
+                    color: #2c6182;
+
+                    svg {
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+
+    }
+}

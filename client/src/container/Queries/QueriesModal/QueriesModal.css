@@ -1,0 +1,77 @@
+.query_modal .modal_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .query_modal .modal_main p {
+    font-weight: bold;
+    cursor: pointer; }
+.query_modal .answer_modal {
+  display: flex; }
+  .query_modal .answer_modal img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px; }
+  .query_modal .answer_modal p {
+    margin: 0 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; }
+    .query_modal .answer_modal p span {
+      color: #3F8AB8;
+      margin-left: 10px; }
+.query_modal .modal_question {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; }
+  .query_modal .modal_question p {
+    font-weight: 500; }
+  .query_modal .modal_question .answer_count {
+    display: flex; }
+    .query_modal .modal_question .answer_count svg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5px 5px 0 0; }
+    .query_modal .modal_question .answer_count p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      font-weight: bold; }
+.query_modal .modal_question_answer p {
+  font-size: 14px; }
+.query_modal .form_answer .give_answer {
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #ebeef9; }
+.query_modal .form_answer ::placeholder {
+  font-size: 13px; }
+.query_modal .show_all_answers {
+  margin-top: 10px; }
+  .query_modal .show_all_answers .show_all_answers_container {
+    padding-left: 0;
+    overflow: hidden; }
+    .query_modal .show_all_answers .show_all_answers_container hr {
+      display: inline-block;
+      width: 100%; }
+  .query_modal .show_all_answers .show_all_answers_img {
+    justify-content: center;
+    align-items: center;
+    padding-right: 0; }
+    .query_modal .show_all_answers .show_all_answers_img img {
+      border-radius: 100px;
+      width: 40px;
+      height: 40px; }
+  .query_modal .show_all_answers .show_all_answers_text {
+    padding: 0;
+    margin-top: 10px; }
+    .query_modal .show_all_answers .show_all_answers_text h5 {
+      font-size: 13px; }
+      .query_modal .show_all_answers .show_all_answers_text h5 span {
+        font-size: 10px;
+        margin-left: 5px; }
+    .query_modal .show_all_answers .show_all_answers_text p {
+      font-size: 12px; }
+
+/*# sourceMappingURL=QueriesModal.css.map */

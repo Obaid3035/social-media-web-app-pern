@@ -1,0 +1,18 @@
+.top_account {
+  margin-top: 50px; }
+  .top_account h4 {
+    color: #3F8AB8;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 35px; }
+  .top_account .top_account_profiles {
+    display: flex; }
+    .top_account .top_account_profiles img {
+      border-radius: 100px; }
+    .top_account .top_account_profiles p {
+      font-size: 12px;
+      margin: 0;
+      padding: 0; }
+
+/*# sourceMappingURL=TopAccount.css.map */

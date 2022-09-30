@@ -1,0 +1,15 @@
+.not_friend {
+  background-color: white;
+  border-radius: 40px;
+  margin: 30px 0; }
+  .not_friend h5 {
+    color: #3F8AB8;
+    font-weight: bold; }
+  .not_friend p {
+    margin: 0;
+    font-size: 20px; }
+  .not_friend button {
+    width: 15%;
+    border-radius: 20px; }
+
+/*# sourceMappingURL=NotFriend.css.map */

@@ -1,0 +1,100 @@
+@import "../../../../color";
+
+.view_profile_image_modal {
+  .profile_col_left {
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .profile_col_right {
+    p{
+      cursor: pointer;
+      display: flex;
+      justify-content: end;
+    }
+    h2{
+      color: $primary;
+    }
+
+    .user_profile_detail {
+      display: flex;
+      justify-content: space-between;
+
+      .profile_comment_count {
+        display: flex;
+        margin-right: 10px;
+
+        svg {
+          margin-top: 4px;
+          margin-right: 3px;
+        }
+      }
+    }
+
+    .show_all_answers {
+      margin-top: 10px;
+      .show_all_answers_container {
+        padding-left: 0;
+        overflow: hidden;
+
+        hr{
+          display: inline-block;
+          width: 100%;
+        }
+        .show_all_answers_img {
+          justify-content: center;
+          align-items: center;
+          padding-right: 0;
+
+
+          img{
+            border-radius: 100px;
+            width: 40px;
+            height: 40px;
+          }
+        }
+        .show_all_answers_text {
+          padding: 0;
+          margin-top: 10px;
+          h5{
+            font-size: 13px;
+
+            span{
+              font-size: 10px;
+              margin-left: 5px;
+            }
+          }
+          p{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .user_profile_comment {
+
+      display: flex;
+
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        margin-right: 5px;
+      }
+
+      .form_answer {
+        .give_answer {
+          border-radius: 20px;
+          background: #fff;
+          border: 1px solid #ebeef9;
+        }
+        ::placeholder {
+          font-size: 13px;
+        }
+      }
+    }
+
+  }
+}

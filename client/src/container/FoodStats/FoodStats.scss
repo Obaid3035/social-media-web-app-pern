@@ -1,0 +1,19 @@
+@import "../../color";
+
+.food_stats {
+  background-color: white;
+  padding: 40px 20px;
+  h5{
+    font-weight: bold;
+    font-size: $main_heading;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c6182;
+  }
+  svg {
+    width: auto;
+    vertical-align: middle;
+    max-width: 200px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../../color";
+
+.not_friend {
+  background-color: white;
+  border-radius: 40px;
+  margin: 30px 0;
+  h5 {
+    color: $primary;
+    font-weight: bold;
+  }
+  p {
+    margin: 0;
+    font-size: 20px;
+  }
+  button {
+    width: 15%;
+    border-radius: 20px;
+  }
+}

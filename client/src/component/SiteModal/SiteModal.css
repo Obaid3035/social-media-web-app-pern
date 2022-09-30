@@ -1,0 +1,12 @@
+.site_modal .modal-content {
+  border-radius: 35px; }
+.site_modal .modal_header {
+  justify-content: end !important; }
+  .site_modal .modal_header svg {
+    font-size: 25px;
+    color: #3F8AB8;
+    cursor: pointer; }
+    .site_modal .modal_header svg :hover {
+      color: #59E4F6; }
+
+/*# sourceMappingURL=SiteModal.css.map */

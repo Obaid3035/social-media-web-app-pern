@@ -1,0 +1,134 @@
+@import "../../../color";
+
+
+.query_modal {
+  .modal_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+  .answer_modal{
+    display: flex;
+
+    img{
+      width: 40px;
+      height: 40px;
+      border-radius: 100px;
+    }
+
+    p{
+      margin: 0 0 0 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+
+      span{
+        color: $primary;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .modal_question{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    p{
+      font-weight: 500;
+    }
+
+    .answer_count{
+      display: flex;
+
+      svg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5px 0 0;
+      }
+      p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+
+  }
+  .modal_question_answer p{
+    font-size: 14px;
+  }
+
+  .form_answer {
+    display: flex;
+    align-items: center;
+    svg {
+      font-size: 55px;
+      color: #3F8AB8;
+      cursor: pointer;
+      border-radius: 25px;
+    }
+    button {
+      background: white;
+      border: none;
+    }
+    .give_answer {
+      border-radius: 20px;
+      background: #fff;
+      border: 1px solid #ebeef9;
+    }
+    ::placeholder {
+      font-size: 13px;
+    }
+  }
+
+  .show_all_answers{
+    margin-top: 10px;
+
+    .show_all_answers_container{
+      padding-left: 0;
+      overflow: hidden;
+
+      hr{
+        display: inline-block;
+        width: 100%;
+      }
+    }
+
+    .show_all_answers_img{
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+
+
+      img{
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .show_all_answers_text {
+      padding: 0;
+      margin-top: 10px;
+      h5{
+        font-size: 13px;
+
+        span{
+          font-size: 10px;
+          margin-left: 5px;
+        }
+      }
+      p{
+        font-size: 12px;
+      }
+    }
+  }
+}
